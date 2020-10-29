@@ -3,18 +3,104 @@ nav {
     width: 100vw;
     justify-content: space-between;
   }
-  
-  .grid-3 {
+
+  .image-row1 {
     display: flex;
+    justify-content: space-between;
+    width: 10%;
   }
+
+  .image-row2 {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+  }
+
+  .image-row3 {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+  }
+
   
   img {
     width: 100%;
-    border-radius: 50%;
+    
   }
+h1 {
+    color: white;
+    text-align: justify;
+    width: 88%;
+   /* ADD FONT FAMILY */
+  }  
+  p {
+    color: white;
+    text-align: justify;
+    width: 88%;
+   /* ADD FONT FAMILY */
+  }  
   
-  .grid-2 {
+.text-col {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+/* QUESTION ABOUT TITLE + FLEX BOX */
+.text-title{
+  display: flex;
+  width: 100%;
+  margin: 100;
+}
+
+/* THUMPER PAGE */
+
+.thumper-page {
     display: flex;
     width: 70%;
     margin: auto;
-  }
+}
+
+.thumper-page .image {
+    flex: 70%;
+}
+
+
+/* PANIC PAGE */
+
+.panic-page {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.panic-page .image {
+  flex: 70%;
+}
+
+/* HORSE PAGE */
+
+.horse-page {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.horse-page .image {
+  flex: 70%;
+}
+
+
+
+/* WAX PAGE */
+
+.wax-page {
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.wax-page .image {
+  flex: 70%;
+}
+
