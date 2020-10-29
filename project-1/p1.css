@@ -8,27 +8,28 @@ nav {
   .home-row1 {
     display: flex;
     justify-content: space-between;
-    width: 10%;
-    margin: 90;
+    width: 100vw;
+    margin: 90px;
   }
 
   .home-row2 {
     display: flex;
     justify-content: space-between;
-    width: 10%;
-    margin: 90;
+    width: 100%;
+    margin: 90px;
   }
 
   .home-row3 {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    margin: 90;
+    width: 100%;
+    margin: 90px;
   }
 
   
   img {
     width: 100%;
+    display: inline-block;
     
   }
 h1 {
