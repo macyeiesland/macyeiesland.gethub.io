@@ -4,22 +4,26 @@ nav {
     justify-content: space-between;
   }
 
-  .image-row1 {
+  /* HOME PAGE */
+  .home-row1 {
     display: flex;
     justify-content: space-between;
     width: 10%;
+    margin: 90;
   }
 
-  .image-row2 {
+  .home-row2 {
     display: flex;
     justify-content: space-between;
     width: 10%;
+    margin: 90;
   }
 
-  .image-row3 {
+  .home-row3 {
     display: flex;
     justify-content: space-between;
-    width: 10%;
+    width: 100vw;
+    margin: 90;
   }
 
   
