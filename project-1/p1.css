@@ -28,7 +28,7 @@ nav {
 
   
   img {
-    width: 100%;
+    flex: 1;
     display: inline-block;
     
   }
