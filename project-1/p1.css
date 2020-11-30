@@ -1,3 +1,41 @@
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.home-title {
+  float: left;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px; 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: tan;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: red;
+}
+
+
+
+
+
 nav {
     display: flex;
     width: 100vw;
@@ -5,6 +43,12 @@ nav {
   }
 
   /* HOME PAGE */
+
+  .home {
+    width: 100vw;
+    margin: 10px;
+  }
+
   .home-row1 {
     display: flex;
     justify-content: space-between;
@@ -24,7 +68,7 @@ nav {
   .home-row3 {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     margin: 90px;
   }
 
@@ -32,8 +76,29 @@ nav {
   img {
     flex: 1;
     display: inline-block;
-    
+    justify-content: space-between;
+    align-self: center;
+    align-self: top;   
   }
+
+  .scale-down {object-fit: scale-down;}
+
+h2{
+  color: white;
+  text-align: justify;
+  width: 50%;
+  display: block;
+  font-size: 200px;
+ /* ADD FONT FAMILY */
+}
+
+h3{
+  color: black;
+  text-align: justify;
+  width: 88%;
+ /* ADD FONT FAMILY */
+}
+
 h1 {
     color: white;
     text-align: justify;
@@ -53,12 +118,6 @@ h1 {
   margin: auto;
 }
 
-/* QUESTION ABOUT TITLE + FLEX BOX */
-.text-title{
-  display: flex;
-  width: 100%;
-  margin: 100;
-}
 
 /* THUMPER PAGE */
 
