@@ -90,7 +90,8 @@ body {
   h1 {
     color: white;
     text-align: center;
-    
+    padding-top: 50px;
+    padding-bottom: 10px;
     font-family: 'Rammetto One', cursive;
 
     font-size: 40px;
@@ -106,8 +107,12 @@ body {
     color: white;
     text-align: center;
     font-family: 'Nixie One', cursive;
-    font-size: 20px;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
+
+  
 
   .responsive {
     width: 100%;
@@ -132,14 +137,14 @@ body {
   .mapouter{
       position: relative;
       text-align:right;
-      height:500px;
+      height:responsice;
       width:600px;}
       
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:relative;
-    width:relative;}
+    height:500px;
+    width:600px;}
 
 
 
