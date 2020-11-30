@@ -8,7 +8,7 @@
 }
 
 .flex-item-left {
-  background-color: pink;
+
   padding: 10px;
   flex: 50%;
   
@@ -18,7 +18,7 @@
 }
 
 .flex-item-right {
-  background-color: dodgerblue;
+
   padding: 10px;
   flex: 50%;
 
@@ -90,17 +90,22 @@ body {
   h1 {
     color: white;
     text-align: center;
+    
+    font-family: 'Rammetto One', cursive;
+
+    font-size: 40px;
   }
 
   h2 {
-    color: purple;
+    color: white;
     text-align: center;
+    font-family: 'Smokum', cursive;
   }
   
   p {
     color: white;
     text-align: center;
-    font-family: verdana;
+    font-family: 'Nixie One', cursive;
     font-size: 20px;
   }
 
@@ -119,8 +124,8 @@ body {
 
   .emailform{
     color: white;
-    font-family: verdana;
-    font-size: 20px;
+    font-family: 'Nixie One', cursive;
+    font-size: 15px;
     padding-left: 20px;
   }
 
@@ -133,4 +138,9 @@ body {
 .gmap_canvas {
     overflow:hidden;
     background:none!important;
-    height:500px;width:600px;}
+    height:relative;
+    width:relative;}
+
+
+
+
